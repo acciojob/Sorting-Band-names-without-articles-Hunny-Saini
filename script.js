@@ -1,6 +1,6 @@
-//your code here
-// Input array of band names
 let bandNames = ["The Beatles", "Rolling Stones", "Led Zeppelin", "Pink Floyd", "The Who", "The Doors"];
+
+// Function to remove articles from band names
 function removeArticle(bandName) {
   // List of articles to remove
   let articles = ["a", "an", "the"];
@@ -29,4 +29,3 @@ for (let i = 0; i < bandNames.length; i++) {
   liElement.textContent = bandNames[i];
   ulElement.appendChild(liElement);
 }
-
