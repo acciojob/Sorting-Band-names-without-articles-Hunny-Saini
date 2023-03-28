@@ -1,4 +1,6 @@
 //your code here
+// Input array of band names
+let bandNames = ["The Beatles", "Rolling Stones", "Led Zeppelin", "Pink Floyd", "The Who", "The Doors"];
 function removeArticle(bandName) {
   // List of articles to remove
   let articles = ["a", "an", "the"];
